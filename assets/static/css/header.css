@@ -11,6 +11,7 @@ header {
     top: 0;
     z-index: 1;
     height: 100px;
+    max-width: 100%;
 }
 
 .header-left {
@@ -103,6 +104,13 @@ header {
         background-color: transparent;
         display: block;
     }
+}
+@media (max-width:380px){
+    .header-center{
+        display: none;
+    }
+    header{
+        grid-template-columns: 1fr 1fr;    }
 }
 
 
