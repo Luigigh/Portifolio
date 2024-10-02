@@ -23,14 +23,6 @@ main {
 }
 
 
-footer {
-    grid-area: footer;
-    background-color: #fff;
-    text-align: center;
-    padding: 20px;
-    border-top: 1px solid #e4e4ec;
-}
-
 .carousel-item {
     padding: 20px;
 }
@@ -61,6 +53,11 @@ footer {
     border-radius: 50%;
 }
 
+
+.symbol{
+    font-size: 14pt;
+}
+
 @media (max-width: 768px) {
     .carousel-item .col-md-4 {
         flex: 0 0 100%;
@@ -68,13 +65,4 @@ footer {
     }
 }
 
-
-
-
-
-
-
-.symbol{
-    font-size: 14pt;
-}
 
