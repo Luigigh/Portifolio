@@ -54,7 +54,7 @@ p{
         height: 115px;
     }
 }
-@media (max-width: 400px){
+@media (max-width: 450px){
     .intro-section {
         display: grid;
         grid-template-columns: 1fr;
