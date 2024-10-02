@@ -42,6 +42,8 @@ p{
 }
 
 
+
+
 @media (max-width: 670px) {
     .intro-image img {
         width: 300px;
@@ -59,11 +61,14 @@ p{
         display: grid;
         grid-template-columns: 1fr;
         min-height: 65vh;
-        padding: 10px;
+        padding: 20px;
         border-radius: 10px;
         margin-bottom: 40px;
     }
     .intro-image{
         display: none;
+    }
+    h3{
+        text-align: center;
     }
 }
