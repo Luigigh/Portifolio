@@ -1,0 +1,40 @@
+
+.intro-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    min-height: 85vh;
+    gap: 20px;
+    padding: 40px;
+    background: linear-gradient(90deg, #ffffff, #f0f0f0, #f0f0f0);
+    border-radius: 10px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.intro-section h1 {
+    margin-bottom: 10px;
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro-text, h1, p , h3{
+    color: #6B6B6B;
+}
+
+p{
+    font-size: 12pt;
+}
+
+.intro-image {
+    display: flex;
+    justify-content: center;
+}
+
+.intro-image img {
+    width: 40%;
+    border-radius: 10px;
+}

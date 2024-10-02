@@ -1,0 +1,179 @@
+
+.projects {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 20px;
+    gap: 2px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    max-width: 98%;
+    gap: 5px;
+    border-radius: 10px;
+    text-align: center;
+    color: #6B6B6B;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+
+.cardEcomerce .content{
+    background-color: #fffafa;
+    border: solid 1px #d8d8d8;
+    border-radius: 10px;
+    padding-left: 10px;
+    text-align: left;
+    color: #752424;
+}
+.cardEcomerce .content p{
+    color: #752424;
+}
+.card .BtnProject{
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #752424;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 12pt;
+    font-weight: bold;
+}
+.card .BtnProject:hover{
+    background-color: #fb5555;
+    color: white;
+    cursor: not-allowed;
+    transform: translateY(0px);
+}
+
+
+
+
+.cardBank .content{
+    background-color: #F4F9FF;
+    border: solid 1px #d8d8d8;
+    border-radius: 10px;
+    padding-left: 10px;
+    text-align: left;
+    color: #475467;
+}
+.cardBank .content p{
+    color: #475467;
+}
+.card .BtnProjectBank{
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(90deg, #0179FE, #4893FF);
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+
+
+
+.projects .cardCaring{
+    background-color: #131619;
+}
+.projects .cardCaring .content{
+    padding-left: 10px;
+    border-color: #363A3D;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: #1A1D21;
+    border-style: solid;
+    color: #ABB8C4;
+    text-align: left;
+}
+.cardCaring .content p{
+    color: #ABB8C4;
+}
+.card .BtnProjectCaring {
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #24AE7C;
+    color: white;
+    text-decoration: none;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+
+
+
+
+.projects .cardAuron{
+    background-color: #161622;
+}
+.projects .cardAuron .content{
+    padding-left: 10px;
+    border-color: #363A3D;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #1d1d2c;
+    color: #CDCDE0;
+    text-align: left;
+}
+.projects .cardAuron .content p{
+    color: #CDCDE0;
+}
+.BtnProjectAuron {
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-decoration: none;
+    font-size: 12pt;
+    font-weight: bold;
+    background: linear-gradient(90deg, #FF8C00, #FFA300);
+}
+
+
+
+
+
+.card .BtnProjectBank:hover, .BtnProjectCaring:hover, .BtnProjectAuron:hover{
+    background: linear-gradient(90deg,#fb5555, #fb5555);
+    color: white;
+    cursor: not-allowed;
+    transform: translateY(0px);
+}
+
+
+
+
+
+@media (max-width: 992px) {
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .projects {
+        grid-template-columns: 1fr;
+    }
+}

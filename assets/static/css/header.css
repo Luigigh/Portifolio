@@ -1,0 +1,92 @@
+
+header {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    background-color: white;
+    padding: 0 20px;
+    border-radius: 5px;
+    border: 1px solid #e4e4ec;
+    position: sticky;
+    top: 0;
+    height: 5rem;
+    z-index: 1;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    min-height: 90px;
+    min-width: 150px;
+}
+
+.header-left img {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.header-left h4{
+    color: #6B6B6B;
+}
+
+.header-center ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.header-center ul li a {
+    color: #6B6B6B;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.header-right {
+    text-align: right;
+}
+
+.header-right .btnMenu{
+    display: none;
+}
+
+.header-right .Btn{
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #D7D7D7;
+}
+
+.header-right .Btn a{
+    color: #6B6B6B;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+
+@media (max-width:670px) {
+    ul li a{
+        display: none;
+    }
+    .Btn{
+        display: none;
+    }
+    .header-right{
+        display: flex;
+        justify-content: right;
+    }
+    .header-right .btnMenu{
+        border: none;
+        height: 50px;
+        width: 50px;
+        border-radius: 5px;
+        background-color: transparent;
+        display: block;
+    }
+}
