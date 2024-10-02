@@ -59,11 +59,12 @@ p{
 @media (max-width: 450px){
     .intro-section {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 100%;
         min-height: 65vh;
         padding: 20px;
         border-radius: 10px;
         margin-bottom: 40px;
+        width: 90%;
     }
     .intro-image{
         display: none;
