@@ -37,12 +37,13 @@
       <nav class="header-center">
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">Projetos</a></li>
-          <li><a href="#">Contato</a></li>
+          <li><a href="#project">Projetos</a></li>
+          <li><a href="#skill">Habilidades</a></li>
+          <li><a href="#contact">Contato</a></li>
         </ul>
       </nav>
       <div class="header-right">
-        <button class="Btn"><a href="#">Entrar em Contato</a></button>
+        <button class="Btn"><a href="#contact">Entrar em Contato</a></button>
         <button class="btnMenu" onclick="showMenu()"> <i class="fa-solid fa-bars fa-2xl" style="color: #6b6b6b;"></i></button>
       </div>
     </header>
@@ -50,10 +51,11 @@
     <div id="menuDropdown" class="menu-dropdown">
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#">Projetos</a></li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="#project">Projetos</a></li>
+        <li><a href="#skill">Habilidades</a></li>
+        <li><a href="#contact">Contato</a></li>
       </ul>
-      <button class="Btn"><a href="#">Entrar em Contato</a></button>
+      <button class="Btn"><a href="#contact">Entrar em Contato</a></button>
     </div>
 
     <main>
@@ -68,8 +70,8 @@
           <img src="assets/static/img/coding.webp" alt="" width="500px" height="383px">
         </div>
       </section>
-
-      <div>
+      <br><br><br><br>
+      <div id="project">
         <h3>Projetos</h3>
       </div>
       <section class="projects row">
@@ -109,9 +111,9 @@
         </div>
       </section>
 
-      <br>
+      <br><br><br><br>
 
-      <div>
+      <div id="skill">
         <h3>Habilidades</h3>
       </div>
       <section id="carouselCards" class="carousel slide" data-bs-ride="carousel">
@@ -232,7 +234,7 @@
             </div>
         </div>
     
-        <br>
+        <br><br>
 
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselCards" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -243,12 +245,11 @@
             <span class="visually-hidden">Next</span>
         </button>
     </section>
-    
-
+    <br><br><br><br>
     </main>
 
-    <br>
-    <footer class="footer">
+
+    <footer id="contact" class="footer">
       <section class="row">
         <div class="merda col-md-6 col-12">
           <div>

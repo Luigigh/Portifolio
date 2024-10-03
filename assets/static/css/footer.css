@@ -21,7 +21,7 @@
   }
   .merda li{
     text-decoration: underline;
-  text-decoration-thickness: 2px; 
+  text-decoration-thickness: 1px; 
   text-decoration-style: solid;
   text-decoration-color: #6B6B6B;
   }
@@ -109,12 +109,13 @@
   }
   @media (max-width: 425px){
     .merda{
-      justify-items: flex-start;
+      justify-items: center;
     }
     .merda ul{
       display: flex;
       flex-direction: column;
       gap: 5px;
+      text-align: center;
     }
     .input{
         width: 250px;
